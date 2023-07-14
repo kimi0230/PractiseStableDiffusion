@@ -32,6 +32,12 @@ pip install 'diffusers[flax]'
 pip install transformers
 ```
 
+## Pipeline
+* https://huggingface.co/docs/diffusers/v0.18.2/en/api/pipelines/overview
+
+
+## Transformers
+* https://huggingface.co/docs/transformers/index
 ## 
 
 ### 'LayerNorm' is one of the layers in the Model.
@@ -49,4 +55,7 @@ pipe.safety_checker = lambda images, clip_input: (images, False)
 
 ## Reference
 * [huggingface/diffusers](https://github.com/huggingface/diffusers)
+* https://huggingface.co/docs/diffusers/
+* [huggingface/transformers](https://github.com/huggingface/transformers)
+* https://huggingface.co/docs/transformers/index
 * [AUTOMATIC1111 / stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
