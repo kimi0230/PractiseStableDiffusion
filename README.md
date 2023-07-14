@@ -38,6 +38,7 @@ pip install transformers
 
 ## Transformers
 * https://huggingface.co/docs/transformers/index
+* models: https://huggingface.co/models
 ## 
 
 ### 'LayerNorm' is one of the layers in the Model.
@@ -59,3 +60,4 @@ pipe.safety_checker = lambda images, clip_input: (images, False)
 * [huggingface/transformers](https://github.com/huggingface/transformers)
 * https://huggingface.co/docs/transformers/index
 * [AUTOMATIC1111 / stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+* [Youtube: Getting Started With Hugging Face in 15 Minutes | Transformers, Pipeline, Tokenizer, Models ](https://www.youtube.com/watch?v=QEaBAZQCtwE)
