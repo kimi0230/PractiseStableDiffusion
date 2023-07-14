@@ -38,6 +38,7 @@ pip install transformers
 
 ## Transformers
 * https://huggingface.co/docs/transformers/index
+* models: https://huggingface.co/models
 ## 
 
 ### 'LayerNorm' is one of the layers in the Model.

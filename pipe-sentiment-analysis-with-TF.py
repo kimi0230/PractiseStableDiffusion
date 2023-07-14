@@ -44,3 +44,10 @@ with torch.no_grad():
     labels = torch.argmax(predictions, dim=-1)
     # Output: tensor([1, 1])
     print("labels", labels)
+
+save_directory = "saved_model"
+tokenizer.save_pretrained(save_directory)
+mode.save_pretrained(save_directory)
+
+tok=AutoTokenizer.from_pretrained(save_directory)
+mod=AutoModelForSequenceClassification.from_pretrained(save_directory)
